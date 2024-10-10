@@ -1,4 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728323355
+::res://::1728408955
+export_presets.cfg::TextFile::-1::1728323490::0::1::::<><>::
+Farmer Cat Top-Down.png::CompressedTexture2D::5270142703005396124::1728408583::1728408583::1::::<><>::
+Feral Cat Top-Down.png::CompressedTexture2D::5912726660033905454::1728408955::1728408956::1::::<><>::
 icon.svg::CompressedTexture2D::6312547195161648905::1727201030::1727201036::1::::<><>::
-node_2d.gd::GDScript::-1::1727201072::0::1::::<>Node2D<>::
+node_2d.gd::GDScript::-1::1728324495::0::1::::<>Node2D<>::
+node_2d.tscn::PackedScene::7106388427449226509::1728325596::0::1::::<><>::
+Farmer Cat.tscn::PackedScene::1315112896770241647::1728407337::0::1::::<><>::uid://chc5qljk8ve0c::::res://Farmer Cat Top-Down.png
+Game.tscn::PackedScene::523828233474925797::1728407350::0::1::::<><>::

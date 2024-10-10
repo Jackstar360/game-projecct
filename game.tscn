@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://hp0my5j3xffp"]
+
+[ext_resource type="PackedScene" uid="uid://s0bynfs6voxr" path="res://Farmer Cat.tscn" id="1_a77f3"]
+[ext_resource type="PackedScene" uid="uid://cen810bdpex5v" path="res://feral_cat.tscn" id="2_881rv"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Farmer Cat[U]" parent="." instance=ExtResource("1_a77f3")]
+position = Vector2(371, -375)
+
+[node name="Feral Cat" parent="." instance=ExtResource("2_881rv")]
+position = Vector2(805, -228)
+
+[node name="Camera2D" type="Camera2D" parent="."]
