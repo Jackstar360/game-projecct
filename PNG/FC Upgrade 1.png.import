@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bkjx2euf32oxp"
-path="res://.godot/imported/rat animated_0002.png-10d5812c53d60d8cbd0fa5e1692ebe40.ctex"
+uid="uid://jtwdld806cs0"
+path="res://.godot/imported/FC Upgrade 1.png-22a0212455e03e7d28e50d8b5d95b567.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://rat animated_0002.png"
-dest_files=["res://.godot/imported/rat animated_0002.png-10d5812c53d60d8cbd0fa5e1692ebe40.ctex"]
+source_file="res://PNG/FC Upgrade 1.png"
+dest_files=["res://.godot/imported/FC Upgrade 1.png-22a0212455e03e7d28e50d8b5d95b567.ctex"]
 
 [params]
 

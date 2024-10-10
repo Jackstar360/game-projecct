@@ -1,7 +1,21 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728325090
+::res://::1728582054
 export_presets.cfg::TextFile::-1::1728324614::0::1::::<><>::
+game.tscn::PackedScene::5918603553689992586::1728325470::0::1::::<><>::uid://bkjx2euf32oxp::::res://rat animated_0002.png
 icon.svg::CompressedTexture2D::6312547195161648905::1728324614::1728324704::1::::<><>::
 node_2d.gd::GDScript::-1::1728324614::0::1::::<>Node2D<>::
-node_2d.tscn::PackedScene::7106388427449226509::1728324614::0::1::::<><>::
-rat animated_0002.png::CompressedTexture2D::3108333468384185357::1728325090::1728325091::1::::<><>::
+node_2d.tscn::PackedScene::7106388427449226509::1728410760::0::1::::<><>::
+::res://PNG/::1728409722
+FC Upgrade 1.png::CompressedTexture2D::672264485217267693::1728408007::1728409705::1::::<><>::
+FC Upgrade 2.png::CompressedTexture2D::8898670557611442518::1728408280::1728409708::1::::<><>::
+FC Upgrade 3.png::CompressedTexture2D::8827740134362969109::1728408465::1728409711::1::::<><>::
+FC Upgrade 4.png::CompressedTexture2D::3497235420133469776::1728408474::1728409713::1::::<><>::
+Rat.png::CompressedTexture2D::389565998239595148::1728409096::1728409720::1::::<><>::
+SB Rat.png::CompressedTexture2D::2681383534727277444::1728409242::1728409722::1::::<><>::
+::res://TSCN/::1728409722
+fc_upgrade_1.tscn::PackedScene::3852816256137044271::1728409705::0::1::::<><>::uid://jtwdld806cs0::::res://PNG/FC Upgrade 1.png
+fc_upgrade_2.tscn::PackedScene::2112061923579071540::1728409707::0::1::::<><>::uid://dy1t2lnkqtswk::::res://PNG/FC Upgrade 2.png
+fc_upgrade_3.tscn::PackedScene::3227493101996007172::1728409711::0::1::::<><>::uid://dx1hucl0al678::::res://PNG/FC Upgrade 3.png
+fc_upgrade_4.tscn::PackedScene::5121246545995580630::1728409713::0::1::::<><>::uid://bp3c7rvau4g3y::::res://PNG/FC Upgrade 4.png
+rat.tscn::PackedScene::5830944213776738055::1728409719::0::1::::<><>::uid://fsydh520mx0o::::res://PNG/Rat.png
+sb_rat.tscn::PackedScene::7675048744075759209::1728409722::0::1::::<><>::uid://beg483j6cj1xg::::res://PNG/SB Rat.png
