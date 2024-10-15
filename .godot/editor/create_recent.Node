@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 Camera2D
 CollisionShape2D
 Sprite2D
+=======
+Sprite2D
+CollisionShape2D
+>>>>>>> origin/Brooke
 CharacterBody2D

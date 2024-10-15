@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://5ddl7dx3pydw"]
+
+[ext_resource type="Texture2D" uid="uid://dy1t2lnkqtswk" path="res://PNG/FC Upgrade 2.png" id="1_eucyn"]
+
+[node name="FC Upgrade 2" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_eucyn")

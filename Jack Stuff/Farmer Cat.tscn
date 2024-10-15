@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://s0bynfs6voxr"]
+
+[ext_resource type="Texture2D" uid="uid://chc5qljk8ve0c" path="res://Jack Stuff/Farmer Cat Top-Down.png" id="1_0628q"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sgbqs"]
+radius = 148.758
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_dylr4"]
+radius = 359.139
+
+[node name="Farmer Cat[U]" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("1_0628q")
+
+[node name="MeleeAtk" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_sgbqs")
+debug_color = Color(0.997182, 0, 0.172015, 0.42)
+
+[node name="RangedAtk" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_dylr4")

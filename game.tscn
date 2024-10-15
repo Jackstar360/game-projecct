@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [gd_scene load_steps=3 format=3 uid="uid://hp0my5j3xffp"]
 
 [ext_resource type="PackedScene" uid="uid://s0bynfs6voxr" path="res://Farmer Cat.tscn" id="1_a77f3"]
@@ -12,3 +13,24 @@ position = Vector2(371, -375)
 position = Vector2(805, -228)
 
 [node name="Camera2D" type="Camera2D" parent="."]
+=======
+[gd_scene load_steps=3 format=3 uid="uid://cqlashnq3a4py"]
+
+[ext_resource type="Texture2D" uid="uid://bkjx2euf32oxp" path="res://rat animated_0002.png" id="1_jcg33"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7vsf0"]
+radius = 61.0
+height = 254.0
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(-4, 0)
+shape = SubResource("CapsuleShape2D_7vsf0")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+scale = Vector2(1.03516, 1)
+texture = ExtResource("1_jcg33")
+>>>>>>> origin/Brooke

@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cen810bdpex5v"]
+
+[ext_resource type="Texture2D" uid="uid://cqif0klieb4uk" path="res://Jack Stuff/Feral Cat Top-Down.png" id="1_ih0bj"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_v6brj"]
+radius = 154.029
+
+[node name="Feral Cat" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("1_ih0bj")
+
+[node name="MeleeAtk" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_v6brj")
+debug_color = Color(1, 0.0131571, 0.00981251, 0.42)

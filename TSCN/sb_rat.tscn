@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dhl36w10jnpen"]
+
+[ext_resource type="Texture2D" uid="uid://beg483j6cj1xg" path="res://PNG/SB Rat.png" id="1_ipx5c"]
+
+[node name="SB Rat" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ipx5c")
+hframes = 2
