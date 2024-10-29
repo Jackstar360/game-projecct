@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpcs2f8jb4jh4"]
+
+[ext_resource type="Texture2D" uid="uid://fsydh520mx0o" path="res://Brooke Stuff/PNG/Rat.png" id="1_k81i3"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7vsf0"]
+radius = 61.0
+height = 254.0
+
+[node name="Rat" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(-4, 0)
+shape = SubResource("CapsuleShape2D_7vsf0")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+scale = Vector2(1.03516, 1)
+texture = ExtResource("1_k81i3")
+hframes = 2
