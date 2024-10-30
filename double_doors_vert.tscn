@@ -1,0 +1,108 @@
+[gd_scene load_steps=15 format=3 uid="uid://d3kktigu3v6kw"]
+
+[ext_resource type="Texture2D" uid="uid://dy6nffa3y5l4d" path="res://doors/DoubleDoor1.png" id="1_lv3lr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5arvb"]
+atlas = ExtResource("1_lv3lr")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cbjx8"]
+atlas = ExtResource("1_lv3lr")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_86olt"]
+atlas = ExtResource("1_lv3lr")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_evcpa"]
+atlas = ExtResource("1_lv3lr")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_trha6"]
+atlas = ExtResource("1_lv3lr")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8bmd5"]
+atlas = ExtResource("1_lv3lr")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_on7q3"]
+atlas = ExtResource("1_lv3lr")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ip3x"]
+atlas = ExtResource("1_lv3lr")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ukton"]
+atlas = ExtResource("1_lv3lr")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l8q0u"]
+atlas = ExtResource("1_lv3lr")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1nwkk"]
+atlas = ExtResource("1_lv3lr")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yvgu8"]
+atlas = ExtResource("1_lv3lr")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qah5l"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5arvb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cbjx8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_86olt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_evcpa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_trha6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8bmd5")
+}],
+"loop": true,
+"name": &"DDoor Closing",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_on7q3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ip3x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ukton")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l8q0u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1nwkk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yvgu8")
+}],
+"loop": true,
+"name": &"DDoor Opening",
+"speed": 5.0
+}]
+
+[node name="double doors vert" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_qah5l")
+animation = &"DDoor Closing"
+frame = 5
+frame_progress = 0.588365

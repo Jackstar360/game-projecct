@@ -1,9 +1,19 @@
-[gd_scene load_steps=2 format=3 uid="uid://dhl36w10jnpen"]
+[gd_scene load_steps=3 format=3 uid="uid://dhl36w10jnpen"]
 
 [ext_resource type="Texture2D" uid="uid://beg483j6cj1xg" path="res://PNG/SB Rat.png" id="1_ipx5c"]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_w5p12"]
+radius = 48.0
+height = 252.0
+
 [node name="SB Rat" type="Node2D"]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
 texture = ExtResource("1_ipx5c")
 hframes = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(-4, 0)
+shape = SubResource("CapsuleShape2D_w5p12")

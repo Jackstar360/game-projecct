@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=3 uid="uid://de7d621r8pgd2"]
+
+[ext_resource type="Script" path="res://Jack Stuff/mainUI.gd" id="1_ycfba"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_53m8m"]
+bg_color = Color(0.603134, 0.789116, 0.568647, 1)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchor_top = 0.784
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 8.96799
+grow_horizontal = 2
+grow_vertical = 0
+script = ExtResource("1_ycfba")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = -0.092
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = -1.948
+offset_right = 2.0
+offset_bottom = 5.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+z_index = 1
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/MarginContainer/ScrollContainer"]
+layout_mode = 2
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Panel" type="Panel" parent="."]
+z_index = -1
+layout_mode = 0
+offset_left = -3.0
+offset_top = -14.0
+offset_right = 1156.0
+offset_bottom = 135.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_53m8m")

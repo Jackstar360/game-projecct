@@ -1,20 +1,46 @@
-[gd_scene load_steps=3 format=3 uid="uid://cpcs2f8jb4jh4"]
+[gd_scene load_steps=7 format=3 uid="uid://cpcs2f8jb4jh4"]
 
+[ext_resource type="Script" path="res://TSCN/character_body_2d.gd" id="1_42u8f"]
 [ext_resource type="Texture2D" uid="uid://fsydh520mx0o" path="res://PNG/Rat.png" id="1_k81i3"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7vsf0"]
 radius = 61.0
 height = 254.0
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_x7ff5"]
+atlas = ExtResource("1_k81i3")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ao2sf"]
+atlas = ExtResource("1_k81i3")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8t652"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x7ff5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ao2sf")
+}],
+"loop": true,
+"name": &"Rat walk",
+"speed": 5.0
+}]
+
 [node name="Rat" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_42u8f")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(-4, 0)
 shape = SubResource("CapsuleShape2D_7vsf0")
 
-[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
-scale = Vector2(1.03516, 1)
-texture = ExtResource("1_k81i3")
-hframes = 2
+[node name="PathFollow2D" type="PathFollow2D" parent="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+sprite_frames = SubResource("SpriteFrames_8t652")
+animation = &"Rat walk"
+frame_progress = 0.343136

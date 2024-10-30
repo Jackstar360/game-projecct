@@ -1,9 +1,14 @@
-<<<<<<< HEAD
-Camera2D
-CollisionShape2D
-Sprite2D
-=======
-Sprite2D
-CollisionShape2D
->>>>>>> origin/Brooke
-CharacterBody2D
+TileMapLayer
+Node2D
+TileMap
+HSeparator
+PanelContainer
+Panel
+TextureButton
+HBoxContainer
+ScrollContainer
+MarginContainer
+VBoxContainer
+Control
+SubViewport
+AnimatedSprite2D
