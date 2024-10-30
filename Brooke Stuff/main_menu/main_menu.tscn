@@ -1,10 +1,10 @@
 [gd_scene load_steps=5 format=3 uid="uid://tlout317q62f"]
 
-[ext_resource type="Texture2D" uid="uid://bs2vq3sl40olp" path="res://Brooke Stuff/istockphoto-1333010525-612x612.jpg" id="1_nxmo8"]
 [ext_resource type="Script" path="res://Brooke Stuff/main_menu/main_menu.gd" id="1_wtxh3"]
+[ext_resource type="Texture2D" uid="uid://cbc8h60as0hxb" path="res://Brooke Stuff/istockphoto-910093668-612x612.jpg" id="2_e8bl3"]
 
 [sub_resource type="SystemFont" id="SystemFont_lqvth"]
-font_names = PackedStringArray("Sitka Small")
+font_names = PackedStringArray("Javanese Text")
 
 [sub_resource type="SystemFont" id="SystemFont_unuay"]
 font_names = PackedStringArray("Candara")
@@ -25,7 +25,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_nxmo8")
+texture = ExtResource("2_e8bl3")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -52,7 +52,7 @@ theme_override_constants/shadow_offset_x = 6
 theme_override_constants/shadow_offset_y = 3
 theme_override_constants/outline_size = 20
 theme_override_fonts/font = SubResource("SystemFont_lqvth")
-theme_override_font_sizes/font_size = 50
+theme_override_font_sizes/font_size = 60
 text = "TOWER DEFENSE
 "
 horizontal_alignment = 1
@@ -72,7 +72,8 @@ custom_minimum_size = Vector2(160, 45)
 layout_mode = 2
 theme_override_fonts/font = SubResource("SystemFont_unuay")
 theme_override_font_sizes/font_size = 25
-text = "START GAME"
+text = "START
+"
 
 [node name="Upgrades" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
 custom_minimum_size = Vector2(160, 45)
