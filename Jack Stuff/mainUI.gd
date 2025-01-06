@@ -1,70 +1,56 @@
 extends Control
 
-# Define the unit data with name, icon, and cost for each unit
-var unit_data = [
-	{"icon": load("res://PNG/FC Upgrade 1.png"), "name": "Farmer", "cost": 50},
-	{"icon": load("res://PNG/FC Upgrade 2.png"), "name": "Mage", "cost": 70},
-	{"icon": load("res://PNG/FC Upgrade 3.png"), "name": "Cannon", "cost": 100}
-]
+# Variable to hold the player's money
+var player_money : int = 100  # Set an initial value or get from player stats
 
-# Function to create a button with unit details
-func create_unit_button(unit_icon: Texture, unit_name: String, unit_cost: int) -> Button:
-	# Create a Button to act as the unit display
-	var button = Button.new()
-	button.size_flags_horizontal = Control.SIZE_EXPAND | Control.SIZE_FILL
+# Price dictionary (for each button/item)
+var prices = {
+	"Farmer": 50,
+	"Feral Cat": 30
+}
 
-	# Create a StyleBoxFlat for rounded button style
-	var style_box = StyleBoxFlat.new()
-	style_box.bg_color = Color(1, 1, 1, 1)
-	style_box.corner_radius_top_left = 8
-	style_box.corner_radius_top_right = 8
-	style_box.corner_radius_bottom_left = 8
-	style_box.corner_radius_bottom_right = 8
-	button.add_theme_stylebox_override("normal", style_box)
+# References to UI nodes
+@onready var money_label = $VBoxContainer/Panel2/Label
+@onready var button_farmer = $VBoxContainer/MarginContainer/ScrollContainer/HBoxContainer/ButtonFarmer
+@onready var button_feral = $VBoxContainer/MarginContainer/ScrollContainer/HBoxContainer/ButtonFeral
 
+# Original names for each button to revert back after hover
+const original_texts = {
+	"Farmer": "Farmer",
+	"Feral Cat": "Feral Cat"
+}
 
-	# Create a CenterContainer for centering content
-	var center_container = CenterContainer.new()
-	center_container.size_flags_horizontal = Control.SIZE_EXPAND | Control.SIZE_FILL
-	center_container.size_flags_vertical = Control.SIZE_EXPAND | Control.SIZE_FILL
-	button.add_child(center_container)  # Add CenterContainer to button
+# Method to update the money display
+func update_money_display():
+	money_label.text = "Money: " + str(player_money)
 
-	# VBoxContainer to organize image, name, and cost vertically
-	var vbox = VBoxContainer.new()
-	center_container.add_child(vbox)  # Add VBox to CenterContainer
-
-	# Image container for unit icon
-	var image_margin = MarginContainer.new()
-	image_margin.set_custom_minimum_size(Vector2(0, 64))
-	var texture_rect = TextureRect.new()
-	texture_rect.texture = unit_icon
-	texture_rect.expand = true
-	texture_rect.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-	image_margin.add_child(texture_rect)
-	vbox.add_child(image_margin)
-
-	# Label for unit name
-	var name_label = Label.new()
-	name_label.text = unit_name
-	name_label.set_custom_minimum_size(Vector2(0, 30))  # Set minimum height
-	vbox.add_child(name_label)
-
-	# Label for unit cost
-	var cost_label = Label.new()
-	cost_label.text = "Cost: " + str(unit_cost)
-	cost_label.set_custom_minimum_size(Vector2(0, 30))  # Set minimum height
-	vbox.add_child(cost_label)
-
-	# Return the configured button
-	return button
-
-# Function to populate the UI with unit buttons in _ready()
+# Initialization
 func _ready():
-	# Access the HBoxContainer to hold buttons (replace with actual path in your scene)
-	var hbox = $VBoxContainer/MarginContainer/ScrollContainer/HBoxContainer
-	hbox.size_flags_horizontal = Control.SIZE_EXPAND | Control.SIZE_FILL
+	# Set the initial money display
+	update_money_display()
 
-	# Create and add a button for each unit in unit_data
-	for unit in unit_data:
-		var unit_button = create_unit_button(unit["icon"], unit["name"], unit["cost"])
-		hbox.add_child(unit_button)
+	# Set initial text for buttons
+	button_farmer.text = original_texts["Farmer"]
+	button_feral.text = original_texts["Feral Cat"]
+
+	# Connect hover signals for the buttons
+	button_farmer.connect("mouse_entered", Callable(self, "_on_button_farmer_hovered"))
+	button_farmer.connect("mouse_exited", Callable(self, "_on_button_hover_exited"))
+
+	button_feral.connect("mouse_entered", Callable(self, "_on_button_feral_hovered"))
+	button_feral.connect("mouse_exited", Callable(self, "_on_button_hover_exited"))
+
+# Signal handlers for Button Farmer
+func _on_button_farmer_hovered():
+	# Change the text of the Farmer button to show the price
+	button_farmer.text = "Cost: " + str(prices["Farmer"])
+
+func _on_button_feral_hovered():
+	# Change the text of the Feral Cat button to show the price
+	button_feral.text = "Cost: " + str(prices["Feral Cat"])
+
+# Reset text on hover exit for both buttons
+func _on_button_hover_exited():
+	# Revert button text to original names
+	button_farmer.text = original_texts["Farmer"]
+	button_feral.text = original_texts["Feral Cat"]

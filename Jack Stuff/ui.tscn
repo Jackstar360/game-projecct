@@ -1,32 +1,78 @@
-[gd_scene load_steps=3 format=3 uid="uid://de7d621r8pgd2"]
+[gd_scene load_steps=6 format=3 uid="uid://de7d621r8pgd2"]
 
 [ext_resource type="Script" path="res://Jack Stuff/mainUI.gd" id="1_ycfba"]
+[ext_resource type="Texture2D" uid="uid://jtwdld806cs0" path="res://PNG/FC Upgrade 1.png" id="2_h4d4v"]
+[ext_resource type="Texture2D" uid="uid://hhginugd4myl" path="res://PNG/Feral Cat upgrade P1.png.png" id="3_ovedi"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_53m8m"]
 bg_color = Color(0.603134, 0.789116, 0.568647, 1)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bamb4"]
+bg_color = Color(1.08294e-07, 0.18895, 0.129062, 1)
+
 [node name="Control" type="Control"]
+custom_minimum_size = Vector2(0, 160)
 layout_mode = 3
-anchor_top = 0.784
+anchors_preset = 12
+anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = 8.96799
+offset_top = -160.0
 grow_horizontal = 2
 grow_vertical = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
 script = ExtResource("1_ycfba")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="Panel" type="Panel" parent="."]
+z_index = -1
+custom_minimum_size = Vector2(0, 150)
 layout_mode = 1
-anchors_preset = -1
-anchor_top = -0.092
+anchors_preset = 12
+anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 1.0
-offset_top = -1.948
-offset_right = 2.0
-offset_bottom = 5.0
 grow_horizontal = 2
+grow_vertical = 0
+size_flags_vertical = 3
+focus_neighbor_top = NodePath("../VBoxContainer/Panel2")
+theme_override_styles/panel = SubResource("StyleBoxFlat_53m8m")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(0, 160)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -137.0
+grow_horizontal = 2
+grow_vertical = 0
+alignment = 1
+
+[node name="Panel2" type="Panel" parent="VBoxContainer"]
+z_index = 2
+layout_direction = 1
+layout_mode = 2
+size_flags_vertical = 3
+focus_neighbor_bottom = NodePath("../../Panel")
+theme_override_styles/panel = SubResource("StyleBoxFlat_bamb4")
+
+[node name="Label" type="Label" parent="VBoxContainer/Panel2"]
+z_index = 4
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 4.0
+offset_top = -8.5
+offset_right = 47.0
+offset_bottom = 8.5
 grow_vertical = 2
+size_flags_horizontal = 0
+focus_neighbor_bottom = NodePath("../../../Panel")
+theme_override_font_sizes/font_size = 12
+text = "Money:"
 
 [node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
 z_index = 1
@@ -35,18 +81,34 @@ size_flags_vertical = 3
 
 [node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/MarginContainer"]
 layout_mode = 2
+follow_focus = true
+horizontal_scroll_mode = 2
+vertical_scroll_mode = 0
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/MarginContainer/ScrollContainer"]
 layout_mode = 2
+size_flags_horizontal = 2
 
-[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+[node name="ButtonFarmer" type="Button" parent="VBoxContainer/MarginContainer/ScrollContainer/HBoxContainer"]
+custom_minimum_size = Vector2(125, 125)
 layout_mode = 2
+size_flags_horizontal = 3
+mouse_default_cursor_shape = 2
+action_mode = 0
+text = "Farmer
+"
+icon = ExtResource("2_h4d4v")
+icon_alignment = 1
+expand_icon = true
 
-[node name="Panel" type="Panel" parent="."]
-z_index = -1
-layout_mode = 0
-offset_left = -3.0
-offset_top = -14.0
-offset_right = 1156.0
-offset_bottom = 135.0
-theme_override_styles/panel = SubResource("StyleBoxFlat_53m8m")
+[node name="ButtonFeral" type="Button" parent="VBoxContainer/MarginContainer/ScrollContainer/HBoxContainer"]
+custom_minimum_size = Vector2(125, 125)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_default_cursor_shape = 2
+action_mode = 0
+text = "Feral Cat
+"
+icon = ExtResource("3_ovedi")
+icon_alignment = 1
+expand_icon = true

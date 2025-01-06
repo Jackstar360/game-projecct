@@ -1,112 +1,113 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1730308375
-ddoor_hori.tscn::PackedScene::5816345672122340633::1730225168::0::1::::<><>::uid://d2s0ablgs0475::::res://doors/DoubleDoor2.png
-double_doors_vert.tscn::PackedScene::9145834980899280462::1730225168::0::1::::<><>::uid://dy6nffa3y5l4d::::res://doors/DoubleDoor1.png
-export_presets.cfg::TextFile::-1::1729013897::0::1::::<><>::
-Farmer Cat Top-Down.png::CompressedTexture2D::5270142703005396124::1729013897::1729014216::1::::<><>::
-Farmer Cat.tscn::PackedScene::1315112896770241647::1729013897::0::1::::<><>::uid://chc5qljk8ve0c::::res://Farmer Cat Top-Down.png
-Feral Cat Top-Down.png::CompressedTexture2D::5912726660033905454::1729013897::1729014216::1::::<><>::
-feral_cat.tscn::PackedScene::-1::1729013897::0::1::::<><>::
-FieldsTileset.png::CompressedTexture2D::1644055394257584229::1729101426::1729100847::1::::<><>::
-game.tscn::PackedScene::-1::1729014195::0::1::::<><>::
-icon.svg::CompressedTexture2D::6312547195161648905::1729013897::1729014216::1::::<><>::
-node_2d.gd::GDScript::-1::1729013897::0::1::::<>Node2D<>::
-node_2d.tscn::PackedScene::7106388427449226509::1729014195::0::1::::<><>::
-Tileset2.png::CompressedTexture2D::3470397132568775386::1729101603::1729101604::1::::<><>::
-::res://1 Shadow/::1729184764
-1.png::CompressedTexture2D::6321594577494453958::1729184763::1729184764::1::::<><>::
-2.png::CompressedTexture2D::3708487979067963511::1729184763::1729184764::1::::<><>::
-3.png::CompressedTexture2D::8900542938188845370::1729184763::1729184764::1::::<><>::
-4.png::CompressedTexture2D::4586327848504215275::1729184763::1729184764::1::::<><>::
-5.png::CompressedTexture2D::6828680898068123439::1729184763::1729184764::1::::<><>::
-6.png::CompressedTexture2D::6480196356700153726::1729184763::1729184764::1::::<><>::
-::res://2 Stone/::1729184764
-1.png::CompressedTexture2D::7735469483249429561::1729184763::1729184764::1::::<><>::
-2.png::CompressedTexture2D::3255513616882146282::1729184763::1729184764::1::::<><>::
-3.png::CompressedTexture2D::7407061397980154464::1729184763::1729184764::1::::<><>::
-4.png::CompressedTexture2D::5994356272970570309::1729184763::1729184764::1::::<><>::
-5.png::CompressedTexture2D::1470721369713228529::1729184763::1729184764::1::::<><>::
-6.png::CompressedTexture2D::8656056933528680704::1729184763::1729184764::1::::<><>::
-::res://3 Decor/::1729184764
-1.png::CompressedTexture2D::1312815813811601957::1729184763::1729184764::1::::<><>::
-2.png::CompressedTexture2D::8513598375773732946::1729184763::1729184764::1::::<><>::
-3.png::CompressedTexture2D::6989365383976559224::1729184763::1729184764::1::::<><>::
-4.png::CompressedTexture2D::7946560850217708138::1729184763::1729184764::1::::<><>::
-5.png::CompressedTexture2D::1572716164912028456::1729184763::1729184764::1::::<><>::
-6.png::CompressedTexture2D::6427414402748939072::1729184763::1729184764::1::::<><>::
-7.png::CompressedTexture2D::3112138374405395138::1729184763::1729184764::1::::<><>::
-8.png::CompressedTexture2D::1807929366181923114::1729184763::1729184764::1::::<><>::
-9.png::CompressedTexture2D::922895126887963292::1729184763::1729184764::1::::<><>::
-10.png::CompressedTexture2D::6730485914645644254::1729184763::1729184764::1::::<><>::
-11.png::CompressedTexture2D::7205109041323471297::1729184763::1729184764::1::::<><>::
-12.png::CompressedTexture2D::3125126268931389030::1729184763::1729184764::1::::<><>::
-13.png::CompressedTexture2D::4569521065295367193::1729184763::1729184763::1::::<><>::
-14.png::CompressedTexture2D::3148506201108032573::1729184763::1729184763::1::::<><>::
-15.png::CompressedTexture2D::9101235856985825319::1729184763::1729184763::1::::<><>::
-16.png::CompressedTexture2D::6696881736255174828::1729184763::1729184763::1::::<><>::
-17.png::CompressedTexture2D::8822710785502806671::1729184763::1729184763::1::::<><>::
-::res://4 Box/::1729184764
-1.png::CompressedTexture2D::3040279899018475517::1729184763::1729184763::1::::<><>::
-2.png::CompressedTexture2D::8822764130060184440::1729184763::1729184763::1::::<><>::
-3.png::CompressedTexture2D::9000031034457135579::1729184763::1729184763::1::::<><>::
-4.png::CompressedTexture2D::9115162294152452724::1729184763::1729184763::1::::<><>::
-5.png::CompressedTexture2D::2489733563270859077::1729184763::1729184764::1::::<><>::
-::res://5 Grass/::1729184764
-1.png::CompressedTexture2D::93798606665299149::1729184763::1729184764::1::::<><>::
-2.png::CompressedTexture2D::4879092689152945639::1729184763::1729184764::1::::<><>::
-3.png::CompressedTexture2D::3163110287109199221::1729184763::1729184764::1::::<><>::
-4.png::CompressedTexture2D::7075348587624133679::1729184763::1729184764::1::::<><>::
-5.png::CompressedTexture2D::6964676552435550850::1729184763::1729184764::1::::<><>::
-6.png::CompressedTexture2D::421832054518248062::1729184763::1729184764::1::::<><>::
-::res://6 Tent/::1729184764
-1.png::CompressedTexture2D::7480396462317409397::1729184763::1729184764::1::::<><>::
-2.png::CompressedTexture2D::5590675723659232786::1729184763::1729184764::1::::<><>::
-3.png::CompressedTexture2D::6417318562686853443::1729184763::1729184764::1::::<><>::
-4.png::CompressedTexture2D::1280775168615208404::1729184763::1729184764::1::::<><>::
-::res://7 House/::1729184764
-1.png::CompressedTexture2D::7614472027638748167::1729184763::1729184764::1::::<><>::
-2.png::CompressedTexture2D::9092098308480395111::1729184763::1729184764::1::::<><>::
-3.png::CompressedTexture2D::8750721655478419989::1729184763::1729184764::1::::<><>::
-4.png::CompressedTexture2D::3790803686919160707::1729184763::1729184764::1::::<><>::
-::res://doors/::1729617054
-Door1.png::CompressedTexture2D::1594079549076543813::1729617038::1729617054::1::::<><>::
-Door2.png::CompressedTexture2D::730823905538911830::1729617038::1729617054::1::::<><>::
-DoubleDoor1.png::CompressedTexture2D::8908588522565629433::1729617038::1729617054::1::::<><>::
-DoubleDoor2.png::CompressedTexture2D::9093037623512297658::1729617038::1729617054::1::::<><>::
-::res://Jack Stuff/::1730225168
-export_presets.cfg::TextFile::-1::1728323490::0::1::::<><>::
-Farmer Cat Top-Down.png::CompressedTexture2D::5270142703005396124::1728408583::1729013335::1::::<><>::
-Farmer Cat.tscn::PackedScene::1315112896770241647::1730225167::0::1::::<><>::uid://chc5qljk8ve0c::::res://Farmer Cat Top-Down.png
-Feral Cat Top-Down.png::CompressedTexture2D::5912726660033905454::1728408955::1729013335::1::::<><>::
-feral_cat.tscn::PackedScene::5082485058929023517::1730225167::0::1::::<><>::uid://cqif0klieb4uk::::res://Feral Cat Top-Down.png
-game.tscn::PackedScene::523828233474925797::1730225167::0::1::::<><>::uid://bu5lk55dp1ksd::::res://TSCN/fc_upgrade_1.tscn<>uid://dhl36w10jnpen::::res://TSCN/sb_rat.tscn<>uid://cpcs2f8jb4jh4::::res://TSCN/rat.tscn<>uid://5ddl7dx3pydw::::res://TSCN/fc_upgrade_2.tscn<>uid://bl8ols4mdaym3::::res://TSCN/fc_upgrade_3.tscn<>uid://ce71gg3vcnxco::::res://TSCN/fc_upgrade_4.tscn<>uid://xonl8cwupwav::::res://FieldsTileset.png<>uid://bppc60n2dsufa::::res://Tileset2.png<>uid://s0bynfs6voxr::::res://Farmer Cat.tscn<>uid://buaj8ohehaud4::::res://7 House/4.png<>uid://c6tx3dxhb8p5i::::res://3 Decor/3.png<>uid://co4qmmexpi6an::::res://ddoor_hori.tscn<>uid://siogd76ry6ua::::res://6 Tent/4.png<>uid://b6drlybsu804t::::res://3 Decor/13.png<>uid://dgqrihr8keijv::::res://7 House/1.png<>uid://bbqbsvr4qrind::::res://4 Box/5.png<>uid://dww6dv5ggmw66::::res://7 House/3.png<>uid://d2sjsbtlbe752::::res://7 House/2.png<>uid://d1hxgw3dgyq56::::res://4 Box/3.png<>uid://d24pnkjn4dgxg::::res://4 Box/4.png<>uid://bfkneo4it5d1h::::res://Tilesets/TX Plant.png<>uid://ehl8s6j164i3::::res://Tilesets/TX Tileset Grass.png<>uid://bypc2hmby2keb::::res://Tilesets/TX Props.png<>uid://deo3qtfhu0ins::::res://Tilesets/TX Shadow.png<>uid://btfvmlhlc4bdp::::res://Tilesets/TX Shadow Plant.png
-icon.svg::CompressedTexture2D::6312547195161648905::1727201030::1729013335::1::::<><>::
-mainUI.gd::GDScript::-1::1730224965::0::1::::<>Control<>::
-node_2d.gd::GDScript::-1::1728324495::0::1::::<>Node2D<>::
-node_2d.tscn::PackedScene::7106388427449226509::1730225168::0::1::::<><>::
-ui.tscn::PackedScene::7506316483463163329::1730225168::0::1::::<><>::res://Jack Stuff/mainUI.gd
-::res://PNG/::1729014216
-FC Upgrade 1.png::CompressedTexture2D::672264485217267693::1729014195::1729014216::1::::<><>::
-FC Upgrade 2.png::CompressedTexture2D::8898670557611442518::1729014195::1729014216::1::::<><>::
-FC Upgrade 3.png::CompressedTexture2D::8827740134362969109::1729014195::1729014216::1::::<><>::
-FC Upgrade 4.png::CompressedTexture2D::3497235420133469776::1729014195::1729014216::1::::<><>::
-Rat.png::CompressedTexture2D::389565998239595148::1729014195::1729014216::1::::<><>::
-SB Rat.png::CompressedTexture2D::2681383534727277444::1729014195::1729014216::1::::<><>::
-::res://Tilesets/::1730138024
-TX Plant.png::CompressedTexture2D::2758805924021731687::1730138023::1730138024::1::::<><>::
-TX Player.png::CompressedTexture2D::8167572937022008721::1730138023::1730138024::1::::<><>::
-TX Props.png::CompressedTexture2D::4102088634017424425::1730138023::1730138024::1::::<><>::
-TX Shadow Plant.png::CompressedTexture2D::3731627677035055649::1730138023::1730138024::1::::<><>::
-TX Shadow.png::CompressedTexture2D::7470648368701650708::1730138023::1730138024::1::::<><>::
-TX Struct.png::CompressedTexture2D::171659441623348015::1730138023::1730138024::1::::<><>::
-TX Tileset Grass.png::CompressedTexture2D::295933830703995928::1730138023::1730138024::1::::<><>::
-TX Tileset Stone Ground.png::CompressedTexture2D::646944629301215320::1730138023::1730138024::1::::<><>::
-TX Tileset Wall.png::CompressedTexture2D::737702296555101341::1730138023::1730138024::1::::<><>::
-::res://TSCN/::1730225168
-character_body_2d.gd::GDScript::-1::1729535158::0::1::::<>Node2D<>::
-fc_upgrade_1.tscn::PackedScene::3852816256137044271::1730225168::0::1::::<><>::uid://jtwdld806cs0::::res://PNG/FC Upgrade 1.png
-fc_upgrade_2.tscn::PackedScene::2112061923579071540::1729014195::0::1::::<><>::uid://dy1t2lnkqtswk::::res://PNG/FC Upgrade 2.png
-fc_upgrade_3.tscn::PackedScene::3227493101996007172::1729014195::0::1::::<><>::uid://dx1hucl0al678::::res://PNG/FC Upgrade 3.png
-fc_upgrade_4.tscn::PackedScene::5121246545995580630::1729014195::0::1::::<><>::uid://bp3c7rvau4g3y::::res://PNG/FC Upgrade 4.png
-rat.tscn::PackedScene::5830944213776738055::1730225168::0::1::::<><>::res://TSCN/character_body_2d.gd<>uid://fsydh520mx0o::::res://PNG/Rat.png
-sb_rat.tscn::PackedScene::7675048744075759209::1730225168::0::1::::<><>::uid://beg483j6cj1xg::::res://PNG/SB Rat.png
+::res://::1736188889
+ddoor_hori.tscn::PackedScene::5816345672122340633::1734553948::0::1::::<><>::uid://d2s0ablgs0475::::res://doors/DoubleDoor2.png
+double_doors_vert.tscn::PackedScene::9145834980899280462::1734553948::0::1::::<><>::uid://dy6nffa3y5l4d::::res://doors/DoubleDoor1.png
+export_presets.cfg::TextFile::-1::1729010297::0::1::::<><>::
+Farmer Cat Top-Down.png::CompressedTexture2D::5270142703005396124::1729010297::1730745609::1::::<><>::
+Farmer Cat.tscn::PackedScene::1315112896770241647::1729010297::0::1::::<><>::uid://chc5qljk8ve0c::::res://Farmer Cat Top-Down.png
+Feral Cat Top-Down.png::CompressedTexture2D::5912726660033905454::1729010297::1730745609::1::::<><>::
+feral_cat.tscn::PackedScene::5082485058929023517::1729010297::0::1::::<><>::uid://cqif0klieb4uk::::res://Feral Cat Top-Down.png
+FieldsTileset.png::CompressedTexture2D::1644055394257584229::1729097826::1730745609::1::::<><>::
+game.tscn::PackedScene::-1::1729010595::0::1::::<><>::
+icon.svg::CompressedTexture2D::6312547195161648905::1729010297::1730745609::1::::<><>::
+node_2d.gd::GDScript::-1::1729010297::0::1::::<>Node2D<>::
+node_2d.tscn::PackedScene::7106388427449226509::1729010595::0::1::::<><>::
+Tileset2.png::CompressedTexture2D::3470397132568775386::1729098003::1730745609::1::::<><>::
+::res://1 Shadow/::1730745610
+1.png::CompressedTexture2D::6321594577494453958::1729181163::1730745610::1::::<><>::
+2.png::CompressedTexture2D::3708487979067963511::1729181163::1730745610::1::::<><>::
+3.png::CompressedTexture2D::8900542938188845370::1729181163::1730745610::1::::<><>::
+4.png::CompressedTexture2D::4586327848504215275::1729181163::1730745610::1::::<><>::
+5.png::CompressedTexture2D::6828680898068123439::1729181163::1730745610::1::::<><>::
+6.png::CompressedTexture2D::6480196356700153726::1729181163::1730745610::1::::<><>::
+::res://2 Stone/::1730745610
+1.png::CompressedTexture2D::7735469483249429561::1729181163::1730745610::1::::<><>::
+2.png::CompressedTexture2D::3255513616882146282::1729181163::1730745610::1::::<><>::
+3.png::CompressedTexture2D::7407061397980154464::1729181163::1730745610::1::::<><>::
+4.png::CompressedTexture2D::5994356272970570309::1729181163::1730745610::1::::<><>::
+5.png::CompressedTexture2D::1470721369713228529::1729181163::1730745610::1::::<><>::
+6.png::CompressedTexture2D::8656056933528680704::1729181163::1730745610::1::::<><>::
+::res://3 Decor/::1730745610
+1.png::CompressedTexture2D::1312815813811601957::1729181163::1730745610::1::::<><>::
+2.png::CompressedTexture2D::8513598375773732946::1729181163::1730745610::1::::<><>::
+3.png::CompressedTexture2D::6989365383976559224::1729181163::1730745609::1::::<><>::
+4.png::CompressedTexture2D::7946560850217708138::1729181163::1730745609::1::::<><>::
+5.png::CompressedTexture2D::1572716164912028456::1729181163::1730745609::1::::<><>::
+6.png::CompressedTexture2D::6427414402748939072::1729181163::1730745609::1::::<><>::
+7.png::CompressedTexture2D::3112138374405395138::1729181163::1730745609::1::::<><>::
+8.png::CompressedTexture2D::1807929366181923114::1729181163::1730745610::1::::<><>::
+9.png::CompressedTexture2D::922895126887963292::1729181163::1730745610::1::::<><>::
+10.png::CompressedTexture2D::6730485914645644254::1729181163::1730745610::1::::<><>::
+11.png::CompressedTexture2D::7205109041323471297::1729181163::1730745610::1::::<><>::
+12.png::CompressedTexture2D::3125126268931389030::1729181163::1730745610::1::::<><>::
+13.png::CompressedTexture2D::4569521065295367193::1729181163::1730745610::1::::<><>::
+14.png::CompressedTexture2D::3148506201108032573::1729181163::1730745610::1::::<><>::
+15.png::CompressedTexture2D::9101235856985825319::1729181163::1730745610::1::::<><>::
+16.png::CompressedTexture2D::6696881736255174828::1729181163::1730745610::1::::<><>::
+17.png::CompressedTexture2D::8822710785502806671::1729181163::1730745610::1::::<><>::
+::res://4 Box/::1730745610
+1.png::CompressedTexture2D::3040279899018475517::1729181163::1730745610::1::::<><>::
+2.png::CompressedTexture2D::8822764130060184440::1729181163::1730745610::1::::<><>::
+3.png::CompressedTexture2D::9000031034457135579::1729181163::1730745610::1::::<><>::
+4.png::CompressedTexture2D::9115162294152452724::1729181163::1730745610::1::::<><>::
+5.png::CompressedTexture2D::2489733563270859077::1729181163::1730745610::1::::<><>::
+::res://5 Grass/::1730745610
+1.png::CompressedTexture2D::93798606665299149::1729181163::1730745610::1::::<><>::
+2.png::CompressedTexture2D::4879092689152945639::1729181163::1730745610::1::::<><>::
+3.png::CompressedTexture2D::3163110287109199221::1729181163::1730745610::1::::<><>::
+4.png::CompressedTexture2D::7075348587624133679::1729181163::1730745610::1::::<><>::
+5.png::CompressedTexture2D::6964676552435550850::1729181163::1730745609::1::::<><>::
+6.png::CompressedTexture2D::421832054518248062::1729181163::1730745609::1::::<><>::
+::res://6 Tent/::1730745609
+1.png::CompressedTexture2D::7480396462317409397::1729181163::1730745609::1::::<><>::
+2.png::CompressedTexture2D::5590675723659232786::1729181163::1730745609::1::::<><>::
+3.png::CompressedTexture2D::6417318562686853443::1729181163::1730745609::1::::<><>::
+4.png::CompressedTexture2D::1280775168615208404::1729181163::1730745609::1::::<><>::
+::res://7 House/::1730745609
+1.png::CompressedTexture2D::7614472027638748167::1729181163::1730745609::1::::<><>::
+2.png::CompressedTexture2D::9092098308480395111::1729181163::1730745609::1::::<><>::
+3.png::CompressedTexture2D::8750721655478419989::1729181163::1730745609::1::::<><>::
+4.png::CompressedTexture2D::3790803686919160707::1729181163::1730745609::1::::<><>::
+::res://doors/::1730745609
+Door1.png::CompressedTexture2D::1594079549076543813::1729613438::1730745609::1::::<><>::
+Door2.png::CompressedTexture2D::730823905538911830::1729613438::1730745609::1::::<><>::
+DoubleDoor1.png::CompressedTexture2D::8908588522565629433::1729613438::1730745609::1::::<><>::
+DoubleDoor2.png::CompressedTexture2D::9093037623512297658::1729613438::1730745609::1::::<><>::
+::res://Jack Stuff/::1734553949
+export_presets.cfg::TextFile::-1::1728319890::0::1::::<><>::
+Farmer Cat Top-Down.png::CompressedTexture2D::5270142703005396124::1728404983::1730745609::1::::<><>::
+Farmer Cat.tscn::PackedScene::1315112896770241647::1734553947::0::1::::<><>::uid://chc5qljk8ve0c::::res://Farmer Cat Top-Down.png
+Feral Cat Top-Down.png::CompressedTexture2D::5912726660033905454::1728405355::1730745609::1::::<><>::
+feral_cat.tscn::PackedScene::5082485058929023517::1734553947::0::1::::<><>::uid://cqif0klieb4uk::::res://Feral Cat Top-Down.png
+game.tscn::PackedScene::523828233474925797::1734553949::0::1::::<><>::uid://bu5lk55dp1ksd::::res://TSCN/fc_upgrade_1.tscn<>uid://dhl36w10jnpen::::res://TSCN/sb_rat.tscn<>uid://cpcs2f8jb4jh4::::res://TSCN/rat.tscn<>uid://5ddl7dx3pydw::::res://TSCN/fc_upgrade_2.tscn<>uid://bl8ols4mdaym3::::res://TSCN/fc_upgrade_3.tscn<>uid://ce71gg3vcnxco::::res://TSCN/fc_upgrade_4.tscn<>uid://xonl8cwupwav::::res://FieldsTileset.png<>uid://bppc60n2dsufa::::res://Tileset2.png<>uid://s0bynfs6voxr::::res://Jack Stuff/Farmer Cat.tscn<>uid://buaj8ohehaud4::::res://7 House/4.png<>uid://c6tx3dxhb8p5i::::res://3 Decor/3.png<>uid://co4qmmexpi6an::::res://ddoor_hori.tscn<>uid://siogd76ry6ua::::res://6 Tent/4.png<>uid://b6drlybsu804t::::res://3 Decor/13.png<>uid://dgqrihr8keijv::::res://7 House/1.png<>uid://bbqbsvr4qrind::::res://4 Box/5.png<>uid://dww6dv5ggmw66::::res://7 House/3.png<>uid://d2sjsbtlbe752::::res://7 House/2.png<>uid://d1hxgw3dgyq56::::res://4 Box/3.png<>uid://d24pnkjn4dgxg::::res://4 Box/4.png<>uid://bfkneo4it5d1h::::res://Tilesets/TX Plant.png<>uid://ehl8s6j164i3::::res://Tilesets/TX Tileset Grass.png<>uid://bypc2hmby2keb::::res://Tilesets/TX Props.png<>uid://deo3qtfhu0ins::::res://Tilesets/TX Shadow.png<>uid://btfvmlhlc4bdp::::res://Tilesets/TX Shadow Plant.png
+icon.svg::CompressedTexture2D::6312547195161648905::1727197430::1730745609::1::::<><>::
+mainUI.gd::GDScript::-1::1731609242::0::1::::<>Control<>::
+node_2d.gd::GDScript::-1::1728320895::0::1::::<>Node2D<>::
+node_2d.tscn::PackedScene::7106388427449226509::1734553947::0::1::::<><>::
+ui.tscn::PackedScene::7506316483463163329::1734553948::0::1::::<><>::res://Jack Stuff/mainUI.gd<>uid://jtwdld806cs0::::res://PNG/FC Upgrade 1.png<>uid://hhginugd4myl::::res://PNG/Feral Cat upgrade P1.png.png
+::res://PNG/::1730918055
+FC Upgrade 1.png::CompressedTexture2D::672264485217267693::1729010595::1730745609::1::::<><>::
+FC Upgrade 2.png::CompressedTexture2D::8898670557611442518::1729010595::1730745609::1::::<><>::
+FC Upgrade 3.png::CompressedTexture2D::8827740134362969109::1729010595::1730745609::1::::<><>::
+FC Upgrade 4.png::CompressedTexture2D::3497235420133469776::1729010595::1730745609::1::::<><>::
+Feral Cat upgrade P1.png.png::CompressedTexture2D::506151852029899331::1730918049::1730918055::1::::<><>::
+Rat.png::CompressedTexture2D::389565998239595148::1729010595::1730745609::1::::<><>::
+SB Rat.png::CompressedTexture2D::2681383534727277444::1729010595::1730745609::1::::<><>::
+::res://Tilesets/::1730918054
+TX Plant.png::CompressedTexture2D::2758805924021731687::1730134423::1730745609::1::::<><>::
+TX Player.png::CompressedTexture2D::8167572937022008721::1730134423::1730745609::1::::<><>::
+TX Props.png::CompressedTexture2D::4102088634017424425::1730134423::1730745609::1::::<><>::
+TX Shadow Plant.png::CompressedTexture2D::3731627677035055649::1730134423::1730745609::1::::<><>::
+TX Shadow.png::CompressedTexture2D::7470648368701650708::1730134423::1730745609::1::::<><>::
+TX Struct.png::CompressedTexture2D::171659441623348015::1730134423::1730745609::1::::<><>::
+TX Tileset Grass.png::CompressedTexture2D::295933830703995928::1730134423::1730745609::1::::<><>::
+TX Tileset Stone Ground.png::CompressedTexture2D::646944629301215320::1730134423::1730745609::1::::<><>::
+TX Tileset Wall.png::CompressedTexture2D::737702296555101341::1730134423::1730745609::1::::<><>::
+::res://TSCN/::1734553948
+character_body_2d.gd::GDScript::-1::1734552883::0::1::::<>RefCounted<>::
+fc_upgrade_1.tscn::PackedScene::3852816256137044271::1734553947::0::1::::<><>::uid://jtwdld806cs0::::res://PNG/FC Upgrade 1.png
+fc_upgrade_2.tscn::PackedScene::2112061923579071540::1729010595::0::1::::<><>::uid://dy1t2lnkqtswk::::res://PNG/FC Upgrade 2.png
+fc_upgrade_3.tscn::PackedScene::3227493101996007172::1729010595::0::1::::<><>::uid://dx1hucl0al678::::res://PNG/FC Upgrade 3.png
+fc_upgrade_4.tscn::PackedScene::5121246545995580630::1729010595::0::1::::<><>::uid://bp3c7rvau4g3y::::res://PNG/FC Upgrade 4.png
+rat.tscn::PackedScene::5830944213776738055::1734553948::0::1::::<><>::res://TSCN/character_body_2d.gd<>uid://fsydh520mx0o::::res://PNG/Rat.png
+sb_rat.tscn::PackedScene::7675048744075759209::1734553947::0::1::::<><>::uid://beg483j6cj1xg::::res://PNG/SB Rat.png
